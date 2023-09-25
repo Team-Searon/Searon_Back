@@ -17,7 +17,7 @@ const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
 const NOTION_ENDPOINT = 'https://api.notion.com/v1';
 
 axios.defaults.headers.common['Authorization'] = `Bearer ${NOTION_API_KEY}`;
-axios.defaults.headers.common['Notion-Version'] = '2021-08-16';
+axios.defaults.headers.common['Notion-Version'] = '2022-06-28';
 
 // 기본 라우트
 app.get('/', (req, res) => {
